@@ -31,21 +31,21 @@
 
   /* Hide the default scrollbar */
   ::-webkit-scrollbar {
-    width: 8px;
+    width: 1px;
   }
 
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: black;
   }
 
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: rgb(78, 18, 18);
     border-radius: 4px;
   }
 
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: red;
   }
