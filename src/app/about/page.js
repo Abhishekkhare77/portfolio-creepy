@@ -33,7 +33,7 @@ const Page = () => {
       </div>
       {showScroll && <div className='absolute bottom-5 left-20 flex gap-x-2'><Mouse size={24} className='text-red-500/30' /><span className='text-red-500/30'>Scroll if you want to...</span></div>}
 
-      <div className='mt-36 mb-72'>
+      <div className='mt-36 mb-36'>
         <TracingBeam className="px-6">
           <div className="max-w-2xl mx-auto antialiased pt-4 relative">
             {dummyContent.map((item, index) => (
